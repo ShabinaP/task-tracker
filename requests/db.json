@@ -10,7 +10,7 @@
       "id": 3,
       "text": "Fix NASA project",
       "day": "Nov 3rd at 1:00PM",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Take test",
