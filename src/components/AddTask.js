@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const AddTask = ({ onAdd }) => {
   const [text, setText] = useState("");
@@ -57,5 +58,9 @@ const AddTask = ({ onAdd }) => {
     </form>
   );
 };
+
+AddTask.propTypes = {
+  onAdd: PropTypes.func,
+}.isRequired;
 
 export default AddTask;

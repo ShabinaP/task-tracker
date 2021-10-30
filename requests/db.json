@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Dentist Appointment",
+      "day": "Nov 22nd at 4:00PM",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Fix NASA project",
+      "day": "Nov 3rd at 1:00PM",
+      "reminder": false
+    },
+    {
+      "text": "Take test",
+      "day": "7th December @ 12:00PM",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}
